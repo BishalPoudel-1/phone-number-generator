@@ -13,8 +13,8 @@ for i in range(min ,max + 1):
         startdigit = startdigit
 print(startdigit)
 for j in range(1, startdigit + 1):
-    final = startdigit + 1
-    print(final)
+    startdigit = startdigit + 1
+    print(startdigit)
 
 
 
