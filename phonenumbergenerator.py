@@ -22,6 +22,16 @@ for j in range(1, startdigit):
         f.write(str(startdigit)+"\n")
         print(startdigit)
 
+''' 
+for j in range(1, startdigit):
+    startdigit = startdigit + 1
+    with open(f"{filename}phonenumber.txt", "a") as f:
+        if len(str(startdigit)) > max:
+            break
+        f.write(str(startdigit)+"\n")
+        print(startdigit)
+
+'''
 
 print("Phone Number saved successfully")
 
