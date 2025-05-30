@@ -17,7 +17,7 @@ for i in range(min ,max + 1):
 for j in range(1, startdigit):
     startdigit = startdigit + 1
     with open(f"{filename}phonenumber.txt", "a") as f:
-        if len(str(startdigit)) > max:
+        if not str(startdigit).startswith(str(firstdigit)):
             break
         f.write(str(startdigit)+"\n")
         print(startdigit)
