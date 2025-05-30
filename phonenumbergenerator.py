@@ -19,8 +19,10 @@ for j in range(1, startdigit):
         if len(str(startdigit)) > max:
             break
         f.write(str(startdigit)+"\n")
+        print(startdigit)
 
-print(len(str(max)))
+
+
 
 
     
