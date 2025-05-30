@@ -16,9 +16,9 @@ for i in range(min ,max + 1):
 for j in range(1, startdigit):
     startdigit = startdigit + 1
     with open("phonenumber.txt", "a") as f:
-        f.write(str(startdigit)+"\n")
         if len(str(startdigit)) > max:
             break
+        f.write(str(startdigit)+"\n")
 
 print(len(str(max)))
 
