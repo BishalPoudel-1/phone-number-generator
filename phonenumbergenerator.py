@@ -12,8 +12,11 @@ for i in range(min ,max + 1):
     for startdigit in range(start ,start + 1):
         startdigit = startdigit
 
+
 for j in range(1, startdigit):
     startdigit = startdigit + 1
+    with open("")
+    
     print(startdigit)
 
 
