@@ -15,9 +15,9 @@ for i in range(min ,max + 1):
 
 for j in range(1, startdigit):
     startdigit = startdigit + 1
-    with open("")
+    with open("phonenumber.txt", "w") as f:
+        f.write(startdigit)
     
-    print(startdigit)
 
 
 
