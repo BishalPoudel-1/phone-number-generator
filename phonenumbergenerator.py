@@ -20,6 +20,9 @@ for j in range(1, startdigit):
         if len(str(max)) > max:
             break
 
+print(len(str(max)))
+
+
     
 
 
