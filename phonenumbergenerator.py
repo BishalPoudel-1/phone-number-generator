@@ -17,7 +17,8 @@ for j in range(1, startdigit):
     startdigit = startdigit + 1
     with open("phonenumber.txt", "a") as f:
         f.write(str(startdigit)+"\n")
-        if 
+        if len(str(max)):
+            
     
 
 
