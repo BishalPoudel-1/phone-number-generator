@@ -11,8 +11,8 @@ for i in range(min ,max + 1):
     start = int(str(firstdigit) + '0' * (i - 1))
     for startdigit in range(start ,start + 1):
         startdigit = startdigit
-print(startdigit)
-for j in range(1, startdigit + 1):
+
+for j in range(1, startdigit):
     startdigit = startdigit + 1
     print(startdigit)
 
